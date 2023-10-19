@@ -2,6 +2,7 @@ import { WhiteSpace, LineSeparator, Image, Video, Grid, GridItem } from "../../c
 import ContentButton from "../../components/buttons/ContentButton/ContentButton";
 import ImageButton from "../../components/buttons/ImageButton/ImageButton";
 import Footer from "../../components/containers/Footer/Footer";
+import Facade from "../../components/containers/Facade/Facade";
 
 const Home = () =>{
     return(
@@ -15,6 +16,9 @@ const Home = () =>{
         <div id="main_container">
             <aside>
                 <nav>
+                    <Facade>
+                        TravelTrekker
+                    </Facade> 
                 </nav>
             </aside>
 
