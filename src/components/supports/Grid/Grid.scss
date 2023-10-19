@@ -1,0 +1,13 @@
+@media (max-width: 1000px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr) !important;
+    }
+  }
+  
+
+.grid-item{
+    border-radius: 1px;
+    background-color: rgb(218, 224, 239);
+    padding: 20px;
+    text-align: center;
+}

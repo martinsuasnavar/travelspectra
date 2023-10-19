@@ -1,0 +1,17 @@
+.content-button{
+    color: white;
+    background-color: rgb(73, 151, 123);
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.content-button:hover{
+    background-color: rgb(93, 193, 156);
+}
+
+.content-button:active{
+    color: grey;
+    background-color: rgb(50, 89, 75);
+}

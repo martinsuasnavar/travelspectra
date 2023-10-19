@@ -1,0 +1,76 @@
+$side-margin: 5px;
+
+#navigation_bar{
+    /*manipulate:*/
+    /*position, size, background, container, items*/
+
+    /*************/
+
+    /*position*/
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /*size*/
+    height: 40px;
+    width: 100%;
+
+    /*background*/
+    background-color: white;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /*container*/
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    /*items*/
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    div {
+        margin-top: 2px;
+        margin-right: $side-margin;
+        margin-left: $side-margin;
+    }
+
+ 
+}
+
+.separator {
+    color: #333; /* Match the color of your text */
+    margin-left: 10px;
+}
+
+
+.nav-logo{
+    width: 50px;
+}
+
+@media (max-width: 1000px){
+    .nav-logo{
+        display: none;
+   }
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    text-decoration: none;
+    display: inline;
+    align-items: center;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
