@@ -4,6 +4,7 @@ import { WhiteSpace } from "../../supports";
 const Footer = () =>{
     return(
         <div id="footer"> 
+            TravelSpectra
         </div>
     );
 };

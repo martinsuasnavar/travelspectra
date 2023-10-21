@@ -2,6 +2,8 @@
 /* SHARED STYLES */
 /*****************/
 
+$facade-section: rgb(0, 73, 182);
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,4 +11,17 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+}
+
+section{
+    padding: 10px;
+}
+
+.article-center{
+  text-align: center;
+}
+
+.facade-section{
+  color: white;
+  background-color: $facade-section;
+}

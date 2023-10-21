@@ -1,13 +1,22 @@
-@media (max-width: 1000px) {
-    .grid-container {
-      grid-template-columns: repeat(1, 1fr) !important;
-    }
-  }
-  
-
 .grid-item{
     border-radius: 1px;
+    width: 100px;
+    height: 100px;
     background-color: rgb(218, 224, 239);
     padding: 20px;
     text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .grid-container {
+    align-items: center;
+    padding: 10px;
+    grid-template-columns: repeat(2, 240px) !important;
+  }
+  .grid-item{
+    margin-top: 20px;
+    
+    width: 160px;
+    height: 160px;
+  }
 }

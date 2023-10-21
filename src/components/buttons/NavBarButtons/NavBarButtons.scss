@@ -1,0 +1,32 @@
+@import "../../containers/NavBar/NavBar";
+
+.nav-button{
+    color: $item-color;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.nav-button:hover{
+    background-color: rgba(183, 183, 183, 0.5);
+}
+
+.nav-button:active{
+    color: rgb(14, 14, 64);
+}
+
+.nav-user-button{
+    background-color: white;
+    color: $facade-section;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.nav-user-button:hover{
+    background-color: rgb(225, 255, 255);
+}
+
+.nav-user-button:active{
+    color: rgb(14, 14, 64);
+}

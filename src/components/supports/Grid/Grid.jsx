@@ -1,12 +1,12 @@
 import React from 'react';
-
+import "./Grid.scss"
 
 const Grid = ({children, templateColumns, newGap, sideMargins})=>{
   
     const defaultStyle = {
         display: "grid",
         gridTemplateColumns: "repeat(3, 1fr)",
-        gap: "20px",
+        gap: "10px",
         marginRight: "0px",
         marginLeft: "0px",
     };

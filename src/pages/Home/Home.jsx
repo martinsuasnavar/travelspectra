@@ -16,25 +16,61 @@ const Home = () =>{
         <div id="main_container">
             <aside>
                 <nav>
-                    <Facade>
-                        TravelTrekker
-                    </Facade> 
+                   
                 </nav>
             </aside>
 
             <div id="contents">
-                <section>
-                    <article>
-                    </article>
-                </section>
+                <section className="facade-section">
+                    <WhiteSpace height="100"/>
+                    
+
+                  
+                    <form className="quick-booking-form">
+                        <h2>Quick booking</h2>
+                       <input></input>
+                       <br/>
+                       <input></input>
+                       <br/>
+                       <input></input>
+                    </form>
+                    
+                    <WhiteSpace height="20"/>
+                    <ContentButton buttonText={"Book now"}/>
+                    <WhiteSpace height="10"/>
+                </section> 
+                <WhiteSpace height="50"/>
                 <section> 
                     <article>
+                        Popular destinations
+                        <Grid templateColumns={"repeat(4,200px)"}>
+                            <GridItem>1</GridItem>
+                            <GridItem>2</GridItem>
+                            <GridItem>3</GridItem>
+                            <GridItem>4</GridItem>
+                        </Grid>
                     </article>
                 </section>
+
+                <WhiteSpace height="50"/>
+                <section>
+                    <article>
+                        Special offers
+                        <Grid templateColumns={"repeat(4,200px)"}>
+                            <GridItem>1</GridItem>
+                            <GridItem>2</GridItem>
+                            <GridItem>3</GridItem>
+                            <GridItem>4</GridItem>
+                        </Grid>
+                        <WhiteSpace height="50"/>
+                    </article>
+                </section>
+                
             </div>
         </div>
 
         <footer>
+            <Footer/>
         </footer>
     </div>
     );

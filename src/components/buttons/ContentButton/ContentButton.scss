@@ -1,6 +1,6 @@
 .content-button{
     color: white;
-    background-color: rgb(73, 151, 123);
+    background-color: rgb(255, 128, 0);
     text-align: center;
     padding: 10px;
     border-radius: 3px;
@@ -8,10 +8,10 @@
 }
 
 .content-button:hover{
-    background-color: rgb(93, 193, 156);
+    background-color: rgb(250, 174, 98);
 }
 
 .content-button:active{
-    color: grey;
-    background-color: rgb(50, 89, 75);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 85, 0);
 }
