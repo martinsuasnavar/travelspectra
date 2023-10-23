@@ -1,6 +1,8 @@
+@import "../../../styles/shared.scss";
+$white: #f16666;
 .content-button{
     color: white;
-    background-color: rgb(255, 128, 0);
+    background-color: $secondary-color;
     text-align: center;
     padding: 10px;
     border-radius: 3px;
@@ -8,10 +10,10 @@
 }
 
 .content-button:hover{
-    background-color: rgb(250, 174, 98);
+    background-color: lighten($secondary-color, 10%);
 }
 
 .content-button:active{
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 85, 0);
+    background-color: darken($secondary-color, 10%);
 }

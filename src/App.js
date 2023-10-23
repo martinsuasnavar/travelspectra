@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Form } from "react-router-dom";
-import { Home, Other } from "./pages";
+import { Home, Flights, Other } from "./pages";
 import NavBar from "./components/containers/NavBar/NavBar";
 import './styles/shared.scss';
 
@@ -10,7 +10,7 @@ function App() {
         <NavBar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/other" element={<Other/>}/>
+          <Route path="/flights" element={<Flights/>}/>
         </Routes>
       </BrowserRouter>
     </div>

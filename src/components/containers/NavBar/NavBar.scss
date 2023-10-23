@@ -5,7 +5,7 @@ $side-margin: 2px;
     $side-margin: 20px;
 }
 
-$item-color: rgb(255, 255, 255);
+$item-color: rgb(0, 6, 169);
 
 #navigation_bar{
     /*manipulate:*/
@@ -23,7 +23,7 @@ $item-color: rgb(255, 255, 255);
     width: 100%;
 
     /*background*/
-    background-color: $facade-section;
+    background-color: white;
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,11 +41,11 @@ $item-color: rgb(255, 255, 255);
     /*buttons*/
     .nav-button {
         margin-top: 2px;
-        margin-right: $side-margin;
-        margin-left: $side-margin;
+        margin-right: 34px;
+        margin-left: 30px;
     }
     .nav-user-button {
-        margin-top: 2px;
+        margin-top: 12px;
         margin-right: $side-margin;
         margin-left: $side-margin;
     }

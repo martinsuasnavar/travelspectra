@@ -1,7 +1,8 @@
+import "./LineSeparator.scss";
+
 const LineSeparator = ({height, width, color}) =>{
     /*define default values in case props aren't defined*/
     const defaultStyle = {
-        backgroundColor: "rgb(0, 130, 70)",
         width: "100%",
         height: "2px",
     };
@@ -15,7 +16,7 @@ const LineSeparator = ({height, width, color}) =>{
     };
 
     return (
-        <div style={divStyle}></div>
+        <div className="line-separator" style={divStyle}></div>
     );
 }
 

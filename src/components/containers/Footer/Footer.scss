@@ -1,4 +1,30 @@
 #footer{
-    height: 100px;
-    background-color: rgb(206, 206, 206);
+   display: block;
+  background-color: rgb(241, 241, 241);
+  text-align: center;
+  height: 400px; /* You can adjust the height as needed */
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+li{
+    text-decoration: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+}
+
+.footer-column{
+display: flex;
+padding: 10px;
+margin: 0 10px;
+}
+
+
+/*IMPORTANT REMINDER*/
+/*a calc() function is needed in #contents in shared.scss to make the footer work out as a container permanently sticked to the bottom*/
+/*for example: min-height: calc(100vh - 70px);*/
