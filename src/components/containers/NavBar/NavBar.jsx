@@ -22,6 +22,7 @@ const NavBar = () => {
 
             <li><div className="left"><div><Image height="40px" src="/images/travelspectra-logo.png"/></div></div></li>
             <ul>
+            <WhiteSpace height="2"/>
                 <li><div className="right"><div className="separator">|</div></div></li>
                 <li><NavUserButton linkTarget="#" side="right">Sign Up</NavUserButton></li>
                 <li><NavUserButton linkTarget="#" onClick={handleClick} side="right">LogIn</NavUserButton></li>

@@ -47,19 +47,23 @@ const Home = () =>{
                     <LineSeparator/>
                 </section> 
                 <Facade backgroundImg={"/images/landscape.png"} height="500px">
-                    <WhiteSpace height="150"/>
+                    <WhiteSpace height="200"/>
+                    <GenericBox width="400px">
                     <h1>Need a new adventure?</h1>
                     We got you covered
                     <br/>
+                    
                     <WhiteSpace height="50"/>
+                    
                     <ContentButton buttonText={"Get started"}/>
+                    </GenericBox>
                 </Facade>
                 <section> 
                     <article>
                    
                         <Image height="250px" src="/images/advertisement.png"/>
                         
-                <WhiteSpace height="100"/>
+                <WhiteSpace height="50"/>
                         <div className="title-text-container">
                             <div className="big-title-text">Popular destinations</div>
                         </div>
